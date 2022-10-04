@@ -1,9 +1,13 @@
 function Calc(){
     var val1 = document.getElementById("val1").value;
     var val2 = document.getElementById("val2").value;
+    var val3 = document.getElementById("val3").value;
+
     var opt = document.getElementById("opt").value;
+    var opt2 = document.getElementById("opt2").value;
+
     
-    var ans = eval(val1 + opt + val2);
+    var ans = eval(val1 + opt + val2 + opt2 + val3);
     document.getElementById("ans").value = ans;
 }
 // (function () {
